@@ -23,7 +23,7 @@ class CollectionViewController: UICollectionViewController {
   
   //MARK: -Utility
   lazy var utility:RobotUtility = {
-    return RobotUtility()
+    return RobotUtility.sharedUtility
   }()
   
   //MARK: -Overrides

@@ -54,6 +54,8 @@ private class ImageCache {
 //MARK: -Utility
 struct RobotUtility {
   
+  static let sharedUtility:RobotUtility = RobotUtility()
+  
   private let imageCache:ImageCache = ImageCache()
   
   /// Load image for robot from remote host
